@@ -1,5 +1,8 @@
 # T-SNE for Unsupervised Features, testing gender, phonemes and language
 
+## Setting up the conda environment
+
+`conda env create --file environment.yaml`
 
 ## Preparing the CV sub dataset
 
