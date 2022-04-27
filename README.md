@@ -27,9 +27,11 @@ For each txt file, each line corresponds to one frame, with all values for each 
 Here we use 10ms windows for frames.
 
 E.g, for a wav file of 30ms with 5 dimensions output features, the txt file should look like:
-    1.342 4.231 -3.231e-03 5.42 1.212
+```bash 
+    1.342 4.231 -3.231e-03 5.42 1.21
     3.231 5.12  4.213      6.41 4.312
     2.12  -1.2  3.2343e-01 4.21 5.532
+```
 
 
 
