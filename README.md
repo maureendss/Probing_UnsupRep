@@ -8,6 +8,7 @@ The list of utterances used in the subset are given in Dataset/cv_fr_wavlist.txt
 
 You will then need to create a FEAT directory, containing the following files:
 
+```bash 
 FEATS
 │
 ├─────── CV_en
@@ -20,6 +21,7 @@ FEATS
          ├── common_voice_fr_7851096.txt
          ... 
          └── common_voice_fr_9823212.txt
+```
 
 For each txt file, each line corresponds to one frame, with all values for each dimension separated by a space.
 Here we use 10ms windows for frames.
